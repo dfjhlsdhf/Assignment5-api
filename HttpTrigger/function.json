@@ -20,7 +20,7 @@
       "direction": "out",
       "name": "outputQueueItem",
       "queueName": "js-queue-items",
-      "connection": "dataimagesstorage_STORAGE"
+      "connection": "DefaultEndpointsProtocol=https;AccountName=dataimagesstorage;AccountKey=ZVB4HZgfNFDMl9TVEaxy2osAjy+4yKWnCq/+R2hgEf+fTvUKsHzm4vctTLqLq8TnFJIl5UCyVbud+AStXNmk7A==;EndpointSuffix=core.windows.net"
     }
   ]
 }
