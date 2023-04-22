@@ -3,7 +3,10 @@ module.exports = async function (context, req) {
 
     // Get the message body from the request
     const message = req.body.message;
-    context.bindings.outputQueueItem = "message: " + 
+    context.bindings.outputQueueItem = 
             (req.query.name || req.body.name);
-
-};
+    context.res = {
+        // status: 200, /* Defaults to 200 */
+        body: message
+    };
+}

@@ -6,6 +6,10 @@
     "start": "func start",
     "test": "echo \"No tests yet...\""
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@azure/cognitiveservices-computervision": "^8.2.0",
+    "mongodb": "^5.3.0",
+    "mongoose": "^7.0.4",
+    "uuid": "^9.0.0"
+  }
 }

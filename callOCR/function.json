@@ -14,13 +14,6 @@
       "type": "http",
       "direction": "out",
       "name": "res"
-    },
-    {
-      "type": "queue",
-      "direction": "out",
-      "name": "outQueueItem",
-      "queueName": "outqueue",
-      "connection": "dataimagesstorage_STORAGE"
     }
   ]
 }
